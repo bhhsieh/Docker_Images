@@ -89,7 +89,6 @@ RUN rm -rf /usr/bin/python3
 RUN ln -s /usr/bin/python3.8 /usr/bin/python3
 RUN apt install -y libnccl2=2.11.4-1+cuda11.4 libnccl-dev=2.11.4-1+cuda11.4
 
-
 RUN pip3 install pip==21.2.1
 
 RUN TZ=Asia/Taipei \
